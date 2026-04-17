@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install-all": "concurrently \"pip install -r backend/requirements.txt\" \"cd frontend && npm install\"",
+    "install-all": "concurrently \"pip install -r requirements.txt\" \"cd frontend && npm install\"",
     "dev": "concurrently \".\\venv\\Scripts\\python manage.py runserver\" \"cd frontend && npm run dev\"",
     "dev1": "./venv/bin/python3 manage.py runserver & cd frontend && npm run dev"
   },
