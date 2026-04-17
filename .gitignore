@@ -1,0 +1,13 @@
+# Python / Django
+venv/
+*.pyc
+db.sqlite3
+__pycache__/
+
+# Node / React
+node_modules/
+dist/
+.env
+
+# Windows
+.vscode/
